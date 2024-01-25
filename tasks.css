@@ -1,0 +1,164 @@
+.formA form > div {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.formA form > div > label:not([for="delivery-type"]),
+.formA p {
+    margin-right: 10px;
+    display: block;
+    width: 230px;
+    text-align: end;
+}
+
+.formA form div:last-child {
+    display: flex;
+    align-items: center;
+}
+
+.formA form div:nth-child(7) > div {
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.formA input[type="radio"] {
+    margin-right: 5px;
+}
+
+.formA select {
+    margin-right: 5px;
+}
+
+.fromA textarea,
+.formA input {
+    resize: none;
+    overflow: scroll;
+    outline: none;
+    border: none;
+}
+
+.formB form > div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+    width: max-content;
+}
+
+.formB form div:last-child {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.formB input[type="reset"] {
+    margin-right: 5px;
+}
+
+.tableA table {
+    border: 2px solid black;
+}
+
+.tableA th {
+    height: 20px;
+}
+
+.tableA td {
+    border: 2px solid black;
+    width: 170px;
+    height: 60px;
+}
+
+.tableB tr {
+    border: 2px solid black;
+}
+
+.tableB td {
+    border: 2px solid black;
+    height: 50px;
+    width: 50px;
+}
+
+.tableB td[colspan] {
+    background-color: #cc6699;
+}
+
+.tableB td[rowspan] {
+    background-color: #ff9999;
+}
+
+.tableB #first-cell {
+    background-color: #cc3300;
+}
+
+.tableB #second-cell {
+    background-color: #99ff33;
+}
+
+.tableB #third-cell {
+    background-color: #00cc99;
+}
+
+.tableB #fourth-cell {
+    background-color: #6699ff;
+}
+
+.css {
+    display: flex;
+    flex-direction: column;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+.css table {
+    border: initial !important;
+    outline: initial !important;
+}
+
+.css h1 {
+    color: blue;
+    letter-spacing: 1.5rem;
+}
+
+.css #cyan-paragraph {
+    color: black;
+    background-color: cyan;
+    width: max-content;
+}
+
+.css .second-paragraph {
+    margin-left: 40%;
+    text-align: right;
+    color: black;
+}
+
+.css .second-paragraph span:first-child {
+    background-color: yellow;
+    text-decoration: underline;
+}
+
+.css .second-paragraph span:last-child {
+    background-color: gray;
+}
+
+.css caption {
+    color: blue;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-weight: 600;
+    text-decoration: line-through;
+    font-style: italic;
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+}
+
+.css td,
+.css th {
+    outline: 2px solid white;
+    height: 20px;
+    width: 150px;
+}
+
+.css .blue {
+    color: blue;
+    font-weight: 600;
+}

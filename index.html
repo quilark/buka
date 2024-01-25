@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+
+        <script src="script.js" defer></script>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="tasks.css" />
+
+        <title>Buka</title>
+    </head>
+    <body>
+        <div class="slider-container">
+            <div class="slider">
+                <button class="slider-button slider-button-last" id="slider-button-left" type="button"></button>
+
+                <div class="slider-content">
+                    <div class="slider-item slider-item-active slider-student">
+                        <img src="avatar.jpg" alt="avatar" class="student-avatar" />
+                        <div class="student-credits">
+                            <a href="mailto:buka@baka.com">buka@baka.com</a>
+                            <span>💖</span>
+                            <p>2024</p>
+                        </div>
+                    </div>
+
+                    <div class="slider-item">
+                        <p class="slider-item-paragraph">
+                            University and My Group I study at
+                            <a href="https://nvsu.ru" target="_blank">Nizhnevartovsk State University</a>, which has a
+                            fascinating history. Initially established as a humanitarian university, it has gradually
+                            expanded its range of available fields of study. Today, the university offers a wide array
+                            of specialties for students to choose from, along with generous scholarships and a diverse
+                            range of extracurricular activities. <br />
+                            Our university group consists of a diverse and talented group of individuals, each with
+                            their own unique strengths and interests. We come together to form a dynamic community that
+                            fosters personal growth and collaboration. With a shared enthusiasm for knowledge and
+                            exploration, we push each other to reach new heights in our academic pursuits.
+                        </p>
+                    </div>
+
+                    <div class="slider-item">
+                        <p class="slider-item-paragraph">
+                            I still haven't decided on my future profession and I'm trying to figure out my preferences.
+                        </p>
+                    </div>
+
+                    <div class="slider-item">
+                        <p class="slider-item-paragraph">
+                            My hobby is drawing, which brings me immense joy and allows me to express my creativity. I
+                            love creating vibrant and picturesque paintings using various techniques and materials. It
+                            is my way of relaxing and immersing myself in the world of art.
+                        </p>
+                    </div>
+
+                    <div class="slider-item formA">
+                        <form action="#">
+                            <div>
+                                <label for="second-name">Фамилия</label>
+                                <input type="text" name="second-name" />
+                            </div>
+
+                            <div>
+                                <label for="initials">Инициалы</label>
+                                <input type="text" name="initials" />
+                            </div>
+
+                            <div>
+                                <label for="password">Пароль</label>
+                                <input type="password" name="password" />
+                            </div>
+
+                            <div>
+                                <label for="receiver-address">Адрес получателя</label>
+                                <input type="address" name="receiver-address" />
+                            </div>
+
+                            <div>
+                                <label for="quantity">Количество</label>
+                                <input type="number" name="quantity" />
+                            </div>
+
+                            <div>
+                                <label for="type">Тип</label>
+                                <select name="type">
+                                    <option value="chicken">Куриные</option>
+                                </select>
+                                <select name="type">
+                                    <option value="selected">Отборные</option>
+                                </select>
+                            </div>
+
+                            <div>
+                                <p>Доставка</p>
+
+                                <div>
+                                    <input type="radio" name="delivery-type" />
+                                    <label for="delivery-type">Почтой</label>
+                                </div>
+
+                                <div>
+                                    <input type="radio" name="delivery-type" />
+                                    <label for="delivery-type">Электронно</label>
+                                </div>
+
+                                <div>
+                                    <input type="radio" name="delivery-type" />
+                                    <label for="delivery-type">Курьером</label>
+                                </div>
+                            </div>
+
+                            <div>
+                                <label for="is-invoice-required">Требуется накладная</label>
+                                <input type="checkbox" name="is-invoice-required" />
+                            </div>
+
+                            <div>
+                                <label for="additional-info">Дополнительная информация</label>
+                                <textarea name="additional-info" cols="50" rows="3"></textarea>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="slider-item formB">
+                        <form action="#">
+                            <div>
+                                <label for="login">Логин:</label>
+                                <input type="text" name="login" />
+                            </div>
+
+                            <div>
+                                <label for="password">Пароль:</label>
+                                <input type="password" name="password" />
+                            </div>
+
+                            <div>
+                                <label for="website-url">URL-адрес сайта:</label>
+                                <input type="url" name="url" />
+                            </div>
+
+                            <div>
+                                <label for="website-name">Название сайта:</label>
+                                <input type="text" name="website-name" />
+                            </div>
+
+                            <div>
+                                <label for="website-description">Описание сайта:</label>
+                                <textarea name="website-description" id="" cols="60" rows="6"></textarea>
+                            </div>
+
+                            <div>
+                                <label for="website-theme">Тема сайта:</label>
+                                <select name="website-theme">
+                                    <option id="none" value="none">Тема не выбрана</option>
+                                </select>
+                            </div>
+
+                            <div>
+                                <label for="banner">Баннер 88x31</label>
+                                <input type="file" name="banner" />
+                            </div>
+
+                            <div>
+                                <input type="reset" value="Очистить" />
+                                <input type="submit" value="Отправить" />
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="slider-item tableA">
+                        <table>
+                            <tr>
+                                <th colspan="5"></th>
+                            </tr>
+                            <tr>
+                                <td rowspan="3"></td>
+                                <td></td>
+                                <td rowspan="3"></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td rowspan="3"></td>
+                                <td rowspan="3"></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div class="slider-item tableB">
+                        <table>
+                            <tr>
+                                <td colspan="8"></td>
+                            </tr>
+                            <tr>
+                                <td rowspan="6"></td>
+                                <td colspan="6"></td>
+                                <td rowspan="6"></td>
+                            </tr>
+                            <tr>
+                                <td rowspan="4"></td>
+                                <td colspan="4"></td>
+                                <td rowspan="4"></td>
+                            </tr>
+                            <tr>
+                                <td rowspan="2"></td>
+                                <td id="first-cell"></td>
+                                <td id="second-cell"></td>
+                                <td rowspan="2"></td>
+                            </tr>
+                            <tr>
+                                <td id="third-cell"></td>
+                                <td id="fourth-cell"></td>
+                            </tr>
+                            <tr>
+                                <td colspan="4"></td>
+                            </tr>
+                            <tr>
+                                <td colspan="6"></td>
+                            </tr>
+                            <tr>
+                                <td colspan="8"></td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div class="slider-item css">
+                        <style>
+                            h2 {
+                                color: purple;
+                                align-self: flex-start;
+                            }
+                        </style>
+                        <h1>Таблицы в HTML</h1>
+                        <br />
+                        <p id="cyan-paragraph">
+                            Одним из наиболее мощных и широко применяемых в
+                            <b>HTML</b> средств являются
+                            <span style="font-size: 1.5rem; font-style: italic">таблицы</span>.
+                        </p>
+                        <br />
+                        <p class="second-paragraph">
+                            <span
+                                >Понятие табличного представления данных не нуждается в дополнительном пояснении.
+                            </span>
+                            <span
+                                >В HTML таблицы используются не только традиционно, как метод представления данных, но и
+                                как средство форматирования Web-страниц.</span
+                            >
+                        </p>
+                        <br />
+                        <h2>Создание простейших HTML-таблиц</h2>
+                        <p style="align-self: flex-start; color: white">
+                            <span
+                                style="
+                                    font-size: 1.3rem;
+                                    background-color: fuchsia;
+                                    font-style: italic;
+                                    font-weight: 600;
+                                "
+                                >Описание</span
+                            >
+                            <u>таблиц должно</u> располагаться внутри раздела документа <code>&ltBODY></code>.
+                        </p>
+                        <br />
+                        <p style="font-size: 1.2rem; font-weight: 500; color: white">
+                            Каждая
+                            <span style="color: blue; text-decoration: underline">таблица</span>
+                            должна
+                            <span style="font-size: 1.4rem">начинаться</span>
+                            тэгом &ltTABLE> и завершаться тэгом &lt/TABLE>.
+                        </p>
+                        <br />
+                        <p style="text-align: center; padding: 0 30px; font-size: 1.2rem; color: white">
+                            <span
+                                style="
+                                    color: blue;
+                                    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                                    font-style: italic;
+                                "
+                                >Каждая</span
+                            >
+                            строка начинается тэгом &ltTR> (Table Row) и завершается тэгом &lt/TR>.
+                            <span style="color: red; font-style: italic; font-weight: 600">Отдельная</span>
+                            ячейка в строке обрамляется парой тегов &ltTD> и &lt/TD (Table Data) HJH &ltTH> H &lt/TH>
+                            (Table Header)
+                        </p>
+                        <br />
+                        <p
+                            style="
+                                align-self: flex-end;
+                                font-size: 1.2rem;
+                                font-family: 'Times New Roman', Times, serif;
+                                font-weight: 600;
+                                color: white;
+                            "
+                        >
+                            Таблица 1
+                        </p>
+
+                        <table>
+                            <caption>
+                                Математические выражения
+                            </caption>
+
+                            <tr>
+                                <th
+                                    style="
+                                        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+                                            'Lucida Sans', Arial, sans-serif;
+                                        font-style: italic;
+                                        text-align: start;
+                                    "
+                                >
+                                    Поле 1
+                                </th>
+                                <th style="background-color: black; color: white; font-size: 1.3rem">Поле 2</th>
+                                <th style="background-color: cyan; color: blue; font-size: 1.3rem; text-align: end">
+                                    Поле 3
+                                </th>
+                                <th
+                                    style="
+                                        background-color: palevioletred;
+                                        text-decoration: underline;
+                                        text-align: start;
+                                        font-style: italic;
+                                        font-size: 1.3rem;
+                                        color: black;
+                                    "
+                                >
+                                    Поле 4
+                                </th>
+                                <th
+                                    style="
+                                        background-color: yellow;
+                                        font-family: 'Times New Roman', Times, serif;
+                                        font-size: 1.2rem;
+                                        color: black;
+                                    "
+                                >
+                                    Поле 5
+                                </th>
+                            </tr>
+                            <tr>
+                                <td class="blue">(a+b)<sup>2</sup></td>
+                                <td style="text-align: center; font-weight: 600; color: white">
+                                    a<sup>2</sup>-b<sup>2</sup>
+                                </td>
+                                <td class="blue" style="text-align: right">(a+b)<sup>3</sup></td>
+                                <td style="font-weight: 600; color: white">
+                                    A<sub>1</sub>+A<sub>2</sub>+...A<sub>i</sub>
+                                </td>
+                                <td class="blue" style="text-align: center; color: white">y=x<sup>2</sup></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+                <button class="slider-button" id="slider-button-right" type="button"></button>
+            </div>
+
+            <div class="slider-dots"></div>
+        </div>
+    </body>
+</html>
